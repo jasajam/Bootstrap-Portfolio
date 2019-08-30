@@ -1,84 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/99b36af440.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Jasa's Portfolio</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="row bg-light p-3">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4 align-content-xs-center">
-            <h1 class="mx-auto float-xs-right">Jasa Alexander-Mends</h1>
-        </div>
-        <div class="col-sm-6">
-            <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-fixed-top">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                <!-- <li>|</li> how to get pipes in b/t nav items--> 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4 align-content-xs-center">
+        <h1 class="mx-auto float-xs-right">Jasa Alexander-Mends</h1>
+      </div>
+      <div class="col-sm-6">
+        <nav
+          class="navbar navbar-expand-sm navbar-light bg-light navbar-fixed-top"
+        >
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html"
+                >Portfolio<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.linkedin.com/in/jasaalexandermends/"
+                target="_blank"
+                ><img src="./assets/images/LI-In-Bug.png" class="linkedin-icon"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/jasajam"
+                target="_blank"
+                ><img
+                  src="./assets/images/GitHub-Mark-32px.png"
+                  class="linkedin-icon"
+              /></a>
+            </li>
+            <!-- <li><i class="fas fa-envelope fa-3x" id="email-icon"></i></li> -->
+          </ul>
+        </nav>
+      </div>
     </div>
 
-    <div class="mx-auto mt-3 mb-5 w-75 h-75 main-content bg-white">
+    <main class="container mx-auto mt-3 mb-5 main-content .main-portfolio">
+      <h2 class="p-3">Portfolio</h2>
 
-        <h2 class="p-3">Portfolio</h2>
-        
-        <hr class="mx-3">
-        
-        <div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="assets/images/ iphone-Art.png" class="h-100 w-75 mx-sm-auto m-3 p-3" alt="fake iPhone project">
-                </div>
-                <div class="col-md-4">
-                    <img src="assets/images/amsh-carriage.jpg" class="h-100 w-100 m-3 p-3" alt="fake Amish country trip project">
-                </div>
-                <div class="col-md-4"></div>
+      <hr class="mx-3" />
+
+      <div>
+        <div class="row portfolio-work">
+          <div class="card col-md-4 p-0 mx-auto proj">
+            <img
+              class="portfolio-pic card-img-top"
+              src="assets/images/crystal-game.jpg"
+              alt="Crystal Game Project"
+            />
+            <div class="card-body proj-details">
+              <h5 class="card-title text-center text-white">
+                Crystal Twenty-One
+              </h5>
+              <p class="card-text text-center">
+                A math-based guessing game created with HTML, CSS, JS and JQuery
+              </p>
             </div>
-            <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/images/postcard-to-emily.jpg" class="h-100 w-100 mx-sm-auto p-3" alt="fake postcard memory project">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/images/pretty-tea.jpg" class="h-100 w-75 p-3" alt="fake tea project">
-                    </div>
-                    <div class="col-md-4"></div>
+          </div>
+
+          <div class="card col-md-4 p-0 mx-auto proj">
+            <img
+              class="portfolio-pic card-img-top"
+              src="assets/images/neighbor-favors.png"
+              alt="Neighbor Favors Group Project"
+            />
+            <div class="card-body proj-details">
+              <h5 class="card-title text-center text-white">Neighbor Favors</h5>
+              <p class="card-text text-center">
+                An application for neighbors to perform neighborly duties and
+                support one another while out of town. Made with MERN,
+                Reactstrap and team effort!
+              </p>
             </div>
-            <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/images/spock.jpg" class="h-100 w-75 mx-sm-auto p-3" alt="fake dog project">
-                    </div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
+          </div>
+
+
+          <div class="card col-md-4 p-0 mx-auto proj">
+            <img
+              class="portfolio-pic card-img-top"
+              src="assets/images/hairstyle-gif-app.jpg"
+              alt="That's a Look Project"
+            />
+            <div class="card-body proj-details">
+              <h5 class="card-title text-center text-white py-0">
+                That's a Look
+              </h5>
+              <p class="card-text text-center my-0">
+                An application for exploring potential hairstyles through GIFs.
+                Made with GIPHY's API and JQuery
+              </p>
+            </div>
+          </div>
+
+          <div class="card col-md-4 p-0 mx-auto proj">
+            <img
+              class="portfolio-pic card-img-top"
+              src="assets/images/friend-redo.png"
+              alt="Friend Finder Project"
+            />
+            <div class="card-body proj-details">
+              <h5 class="card-title text-center text-white py-0">
+                Friend Finder
+              </h5>
+              <p class="card-text text-center my-0">
+                An application for finding friends based on commonalities. Made with Express and JS. 
+              </p>
+            </div>
+          </div>
+
+          <div class="card col-md-4 p-0 mx-auto proj">
+            <img
+              class="portfolio-pic card-img-top"
+              src="assets/images/burger.png"
+              alt="Eat-Da-Burger Project"
+            />
+            <div class="card-body proj-details">
+              <h5 class="card-title text-center text-white py-0">
+                Eat-Da-Burger
+              </h5>
+              <p class="card-text text-center my-0">
+                An application for ordering and eating, or posting and deleting
+                burgers. Made with Express, MySQL and JS.
+              </p>
+            </div>
+          </div>
+
+          <div class="card col-md-4 p-0 mx-auto proj">
+            <img
+              class="portfolio-pic card-img-top"
+              src="assets/images/psychic-game.jpg"
+              alt="Psychic Game Project"
+            />
+            <div class="card-body proj-details">
+                <h5 class="card-title text-center text-white py-0">
+                    You're a Psychic
+                </h5>
+                <p class="card-text text-center my-0">
+                    An application for guessing the computer's chosen letter. First ever JS project.
+                </p>
             </div>
         </div>
-        
-    </div> 
 
+      </div>
+    </main>
 
     <div class="footer text-center mt-3 fixed-bottom">
-        <div class="d-flex flex-column">
-            <div class="bg-info h-25 mt-0 visible"></div>
-            <div class="bg-secondary">
-                <p>Copyright &copy;</p>
-            </div>
+      <div class="d-flex flex-column">
+        <div class="bg-info h-25 mt-0 visible portfolio-pic"></div>
+        <div class="footer-color">
+          <p>Copyright &copy;</p>
         </div>
+      </div>
     </div>
-             
-    
-</body>
+
+    <script>
+      function copyEmail() {}
+    </script>
+  </body>
 </html>

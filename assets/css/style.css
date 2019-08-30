@@ -1,3 +1,44 @@
 body {
-    background-image: url('../images/halftone-yellow.png');
+  background-image: url("../images/drew-beamer-5DD7-L4A4Uw-unsplash.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.linkedin-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-color {
+  background-color: #fc6e58;
+}
+
+.main-content {
+  background-color: #f2eeed;
+  /* justify-content: center; */
+}
+
+.main-portfolio {
+  align-items: stretch;
+  align-content: center;
+}
+
+.portfolio-pic {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-work {
+  flex-wrap: wrap;
+}
+
+.proj {
+  max-width: 350px;
+  max-height: 300px;
+  margin-bottom: 5%;
+  flex-grow: 3;
+}
+
+.proj-details {
+  background-color: #03a5ad;
 }
