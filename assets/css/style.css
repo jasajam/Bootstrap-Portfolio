@@ -42,3 +42,12 @@ body {
 .proj-details {
   background-color: #03a5ad;
 }
+
+.jasa-headshot {
+  max-height: 230px;
+  width: 250px;
+}
+
+.image-container {
+  width: 30px;
+}
